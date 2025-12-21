@@ -3,8 +3,8 @@ package com.cheenu.finance_tracker;
 public class Transaction{
 
     //instance variables
-    private double transactionAmount;
-    private String transactionName;
+    private final double transactionAmount;
+    private final String transactionName;
 
     //constructors
     public Transaction(double transactionAmount, String transactionName){
